@@ -1,11 +1,8 @@
 Forwarding-Proxy
 ================
-
-Hello..
- 
-I started working on implementing  a simple forwarding proxy  module.
+This is an implementation of simple forwarding proxy  module.
 Its similiar to Squid and Nginx, but it wont intercept the packets 
-as of now (just do forwarding) 
+as of now (just do forwarding). It does, 
 
 1. Listen on some ports, configured in the configuartion file.
 2. Accept the connection and create a new connection to the original server address,
